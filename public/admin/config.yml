@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main
   publish_mode: editorial_workflow
   #repo: one-aalam/astro-ink # change this to your repo
@@ -7,7 +7,7 @@ backend:
   site_domain: https://github.com/syukrie77/my-blog # change this to your domain
   base_url: my-blog-areta.vercel.app # change this to your prod URL
   auth_scope: repo
-  #auth_endpoint: oauth
+  auth_endpoint: /admin/oauth
   display_url: https://my-blog-areta.vercel.app/
   logo_url: https://my-blog-areta.vercel.app/assets/logo.svg
   commit_messages:
