@@ -1,2 +1,7 @@
 [functions]
     external_node_modules = ["astro", "vscode-oniguruma"]
+
+[build]
+    command = "astro build"
+    publish = "dist"
+
